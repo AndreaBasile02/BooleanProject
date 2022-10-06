@@ -1,0 +1,72 @@
+/*impostiamo lo sfondo*/
+body{
+    background:url(Image/background.jpg) ; /*url dell'immagine*/
+    background-size: cover; /*la proprietà cover che fa espandere l'immagine per tutta la pagina*/
+}
+
+
+#contenuto{ /*La sezione contenuto contiene tutto cio che voglio nella pagina, come il logo, le scelte e il menu*/
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    height: 85%;
+}
+
+#logo{ /*dimensioni del logo*/
+    margin-left:40%;
+    margin-top: 20px;
+}
+
+h1{ /*definisco lo stile h1*/
+    color: rgb(6, 211, 6);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#menu{ /*personalizziamo il menu*/
+    background-color: rgb(6, 211, 6);
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+titolo{ /*definisco il titolo*/
+    font-size: 20px;
+    color: white;
+}
+
+p{ /*definisco il paragrafo*/
+    font-size: 15px;
+    color: white;
+    line-height: 1px;
+}
+
+.pulsante{ /*stile dei pulsanti*/
+    margin: 0 auto;
+    width: 400px;
+}
+
+#Monopattino1{ /*carica 1*/
+    background-color: green;
+    width: 60%;
+    height: 20px;
+    margin-left: 10px;
+}
+#Monopattino2{ /*carica 2*/
+    background-color: orange;
+    width: 40%;
+    height: 20px;
+    margin-left: 10px;
+}
+#Monopattino3{ /*carica 3*/
+    background-color: red;
+    width: 20%;
+    height: 20px;
+    margin-left: 10px;
+}
